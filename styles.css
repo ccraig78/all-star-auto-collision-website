@@ -90,3 +90,10 @@ footer img { width: 220px; max-width: 52vw; filter: brightness(1.1); }
   .btn { width: 100%; }
   footer { flex-direction: column; align-items: flex-start; }
 }
+.partner { background: linear-gradient(135deg, #ffffff, #edf4ff); }
+.partner-card { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, 320px); gap: 24px; align-items: center; border: 1px solid var(--line); background: white; border-radius: 32px; padding: clamp(24px, 5vw, 48px); box-shadow: var(--shadow); }
+.partner-card a:not(.btn) { color: var(--blue); font-weight: 950; }
+.partner-links { display: grid; gap: 12px; }
+.partner-links .btn { width: 100%; }
+.seo-section { background: linear-gradient(180deg, var(--paper), #fff); }
+@media (max-width: 980px) { .partner-card { grid-template-columns: 1fr; } }
